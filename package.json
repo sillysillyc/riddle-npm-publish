@@ -1,0 +1,38 @@
+{
+  "name": "riddle-npm-publish",
+  "version": "1.0.1",
+  "description": "npm ts publish test",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "shx rm -rf ./dist && tsc && shx cp -R \"./typings\" ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sillysillyc/riddle-npm-publish.git"
+  },
+  "files": [
+    "src",
+    "dist",
+    "typings"
+  ],
+  "author": "sillysillyc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sillysillyc/riddle-npm-publish/issues"
+  },
+  "homepage": "https://github.com/sillysillyc/riddle-npm-publish#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-node": "^11.1.0",
+    "jest": "^27.5.1",
+    "prettier": "^2.6.2",
+    "shx": "^0.3.4",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  }
+}
