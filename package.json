@@ -1,6 +1,6 @@
 {
   "name": "riddle-npm-publish",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "npm ts publish test",
   "main": "dist/index.js",
   "scripts": {
